@@ -1,0 +1,220 @@
+/* استایل‌های عمومی */
+.wrap {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    font-size: 16px;
+}
+
+.nav-tab-active {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+/* استایل فرم‌ها */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"],
+button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #005d87;
+}
+
+/* استایل جداول */
+.wp-list-table {
+    margin-top: 20px;
+}
+
+.wp-list-table th,
+.wp-list-table td {
+    text-align: right;
+}
+
+/* استایل گزارش‌ها */
+.report-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.report-container p {
+    margin: 10px 0;
+}
+
+.report-container ul {
+    margin: 10px 0;
+    padding-right: 20px;
+}
+/* استایل‌های افزونه */
+.serial-production-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.serial-production-form select,
+.serial-production-form input[type="text"],
+.serial-production-form input[type="number"],
+.serial-production-form input[type="date"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.serial-production-form ul {
+    list-style: none;
+    padding: 0;
+}
+
+.serial-production-form ul li {
+    margin-bottom: 5px;
+}
+
+.report-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report-container th,
+.report-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005d87;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+.serial-production-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.serial-production-form h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.serial-production-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.serial-production-form select,
+.serial-production-form input[type="number"],
+.serial-production-form input[type="text"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.serial-production-form button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.serial-production-form button:hover {
+    background: #005a87;
+}
+
+.serial-production-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.serial-production-form ul li {
+    padding: 5px;
+    background: #e9ecef;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serial-production-form ul li button {
+    background: #dc3545;
+    padding: 3px 8px;
+    margin: 0;
+}
+
+.serial-production-form ul li button:hover {
+    background: #c82333;
+}
+
+.serial-production-form input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.serial-production-form input[type="submit"]:hover {
+    background: #218838;
+}
